@@ -1,0 +1,112 @@
+<?php
+
+use Twig\Environment;
+use Twig\Error\LoaderError;
+use Twig\Error\RuntimeError;
+use Twig\Markup;
+use Twig\Sandbox\SecurityError;
+use Twig\Sandbox\SecurityNotAllowedTagError;
+use Twig\Sandbox\SecurityNotAllowedFilterError;
+use Twig\Sandbox\SecurityNotAllowedFunctionError;
+use Twig\Source;
+use Twig\Template;
+
+/* core/themes/classy/templates/field/file-link.html.twig */
+class __TwigTemplate_3b0650d1934cc3b40d11e89b22e00d3ccccc8c936dd3e5dac514a88747d09f59 extends \Twig\Template
+{
+    public function __construct(Environment $env)
+    {
+        parent::__construct($env);
+
+        $this->parent = false;
+
+        $this->blocks = [
+        ];
+        $this->sandbox = $this->env->getExtension('\Twig\Extension\SandboxExtension');
+        $tags = [];
+        $filters = ["escape" => 16];
+        $functions = ["attach_library" => 16];
+
+        try {
+            $this->sandbox->checkSecurity(
+                [],
+                ['escape'],
+                ['attach_library']
+            );
+        } catch (SecurityError $e) {
+            $e->setSourceContext($this->getSourceContext());
+
+            if ($e instanceof SecurityNotAllowedTagError && isset($tags[$e->getTagName()])) {
+                $e->setTemplateLine($tags[$e->getTagName()]);
+            } elseif ($e instanceof SecurityNotAllowedFilterError && isset($filters[$e->getFilterName()])) {
+                $e->setTemplateLine($filters[$e->getFilterName()]);
+            } elseif ($e instanceof SecurityNotAllowedFunctionError && isset($functions[$e->getFunctionName()])) {
+                $e->setTemplateLine($functions[$e->getFunctionName()]);
+            }
+
+            throw $e;
+        }
+
+    }
+
+    protected function doDisplay(array $context, array $blocks = [])
+    {
+        // line 16
+        echo $this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, $this->env->getExtension('Drupal\Core\Template\TwigExtension')->attachLibrary("classy/file"), "html", null, true);
+        echo "
+<span";
+        // line 17
+        echo $this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, $this->sandbox->ensureToStringAllowed(($context["attributes"] ?? null)), "html", null, true);
+        echo ">";
+        echo $this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, $this->sandbox->ensureToStringAllowed(($context["icon"] ?? null)), "html", null, true);
+        echo " ";
+        echo $this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, $this->sandbox->ensureToStringAllowed(($context["link"] ?? null)), "html", null, true);
+        echo "</span>
+";
+    }
+
+    public function getTemplateName()
+    {
+        return "core/themes/classy/templates/field/file-link.html.twig";
+    }
+
+    public function isTraitable()
+    {
+        return false;
+    }
+
+    public function getDebugInfo()
+    {
+        return array (  59 => 17,  55 => 16,);
+    }
+
+    /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
+    public function getSource()
+    {
+        @trigger_error('The '.__METHOD__.' method is deprecated since version 1.27 and will be removed in 2.0. Use getSourceContext() instead.', E_USER_DEPRECATED);
+
+        return $this->getSourceContext()->getCode();
+    }
+
+    public function getSourceContext()
+    {
+        return new Source("{#
+/**
+ * @file
+ * Theme override for a link to a file.
+ *
+ * Available variables:
+ * - attributes: The HTML attributes for the containing element.
+ * - link: A link to the file.
+ * - icon: The icon image representing the file type.
+ * - file_size: The size of the file.
+ *
+ * @see template_preprocess_file_link()
+ * @see stable_preprocess_image_widget()
+ */
+#}
+{{ attach_library('classy/file') }}
+<span{{ attributes }}>{{ icon }} {{ link }}</span>
+", "core/themes/classy/templates/field/file-link.html.twig", "E:\\xampp\\htdocs\\gawadar_jobs\\core\\themes\\classy\\templates\\field\\file-link.html.twig");
+    }
+}

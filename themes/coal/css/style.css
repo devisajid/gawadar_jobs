@@ -1,0 +1,337 @@
+/*
+* @file
+* Subtheme specific CSS.
+*/ 
+
+.well.sm-well {
+	background: #e1e6e8;
+	padding: 5px 0px 5px 10px;
+	color: white;
+	border-radius: 6px;
+}
+
+.form-item-field-status-value select {
+	text-transform: none;
+	color: #3b4781;
+	border: 1px solid #cacfe7;
+	padding: 10px;
+	border-radius: 4px;
+}
+.form-item-field-status-value{
+	display: flex;
+}
+
+div#edit-actions, form .form-actions {
+	margin-top: 8px;
+	border-top: 0px;
+}
+login page
+.nice-login-create {
+	padding: 0px 0px 30px 50px;
+}
+
+.table tr th {
+	background-color:#fa626b;
+}
+input.btn.btn-info.btn-sm {
+	background: #fa626b;
+	border: 1px solid #fa626b;
+}
+a.btn.btn-info.btn-sm {
+	background: #fa626b;
+	border: 1px solid #fa626b; 
+}
+fieldset.js-form-item.js-form-type-date.form-type-date.js-form-item-startdate.form-item-startdate.form-group.col-auto {
+	float: left;
+	margin: 20px 0px 20px 0px;
+	width: 35%;
+}
+fieldset.js-form-item.js-form-type-date.form-type-date.js-form-item-enddate.form-item-enddate.form-group.col-auto{
+	margin: 20px 0px 0px 0px;
+	float: left;
+	width: 35%;
+}
+
+#edit-action.button.js-form-submit.form-submit.btn.btn-primary{
+	margin: 48px 0px 0px 0px;
+	background: #fa626b;
+	border: 1px solid #fa626b; 
+}
+#edit-submit-scale.button.js-form-submit.form-submit.btn.btn-primary{
+	margin: 0px 0px 0px 0px;
+	background: #fa626b;
+	border: 1px solid #fa626b; 
+}
+nav#block-coal-account-menu ul {
+	padding: 10px 20px 0px 13px;
+	padding-left: 5px;
+}
+ul.nav.nav-tabs.primary {
+	float: right;
+	margin: -20px 0px 0px 0px;
+}
+
+div#block-deshtboard2 .content {
+	margin-left: 0px;
+}
+div.height-180 {
+	height: 290px !important;
+}
+form#node-customer-form .content {
+	margin-left: 0px;
+}
+form#node-employ-form .content {
+	margin-left: 0px;
+}
+select#edit-field-designation {
+	width: 100%;
+	padding: 6px;
+	border: 1px solid #a8c9dc;
+	border-radius: 4px;
+}
+.form-item-field-hiring-date-0-value-date.form-no-label.form-group.col-auto {
+	width: 100%;
+}
+div#edit-field-hiring-date-wrapper label {
+	padding: 0px 0px 0px 20px;
+}
+.entity-meta.col-sm-8 {
+	display: none;
+}
+
+/* expenses */
+form#node-expenses-form .content {
+	margin-left: 0px;
+}
+select#edit-field-voucher-type {
+	width: 100%;
+	padding: 8px;
+	border: 1px solid #d9e5f1;
+	border-radius: 5px;
+}
+select#edit-field-select-head{
+	width: 100%;
+	padding: 8px;
+	border: 1px solid #d9e5f1;
+	border-radius: 5px;
+}
+div#edit-field-date-wrapper label {
+	padding: 0px 0px 0px 18px;
+}
+form#node-weight-bridge-form .content {
+	margin-left: 0px;
+}
+select#edit-field-select-customer {
+	width: 100%;
+	padding: 8px;
+	border-radius: 3px;
+	border: 1px solid #b4c5e0;
+	/* background: aliceblue; */
+}
+select#edit-field-select-vehicle-type{
+	width: 100%;
+	padding: 8px;
+	border: 1px solid #d9e5f1;
+	border-radius: 5px;
+}
+.print-weight .content-header.row {
+    display: none;
+}
+@media screen and (max-width: 767px) { 
+	fieldset.js-form-item.js-form-type-textfield.form-type-textfield.js-form-item-title.form-item-title.form-group.col-auto {
+		width: 50%;
+	}
+	fieldset.js-form-item.js-form-type-date.form-type-date.js-form-item-created-min.form-item-created-min.form-group.col-auto {
+		width: 50%;
+	}
+	fieldset.js-form-item.js-form-type-date.form-type-date.js-form-item-created-max.form-item-created-max.form-group.col-auto {
+		width: 50%;
+	}
+	fieldset.js-form-item.js-form-type-select.form-type-select.js-form-item-field-status-value.form-item-field-status-value.form-group.col-auto {
+		width: 50%;
+	}
+	select#edit-field-status-value {
+		width: 100%;
+	}
+}
+@media screen and (min-width: 768px) { 
+	.row.row-offcanvas.row-offcanvas-left.clearfix {
+		margin-right: 0px; 
+		margin: 0px 0px 0px 250px;
+	}
+	fieldset.js-form-item.js-form-type-textfield.form-type-textfield.js-form-item-title.form-item-title.form-group.col-auto {
+		width: 50%;
+	}
+	fieldset.js-form-item.js-form-type-date.form-type-date.js-form-item-created-min.form-item-created-min.form-group.col-auto {
+		width: 50%;
+	}
+	fieldset.js-form-item.js-form-type-date.form-type-date.js-form-item-created-max.form-item-created-max.form-group.col-auto {
+		width: 50%;
+	}
+	fieldset.js-form-item.js-form-type-select.form-type-select.js-form-item-field-status-value.form-item-field-status-value.form-group.col-auto {
+		width: 50%;
+	}
+	select#edit-field-status-value {
+		width: 100%;
+	}
+
+}
+
+.js-form-type-vertical-tabs.form-type-vertical-tabs{
+	display: none;
+}
+.field--name-title{
+	  width: 33.33% !important;
+    float: left;
+}
+.field--name-field-business-name{
+	  width: 33.33% !important;
+	float: left;
+}
+.field--name-field-admin-office-number{
+	  width: 33.33% !important;
+	  float: left;
+}
+.field--name-field-owner-number{
+	width: 64.66% !important;
+	  float: left;
+}
+.field--name-field-address{
+	  width: 33.33% !important;
+    float: left;	
+}
+.field--name-field-commision-decided{
+	width:100%;
+}
+.field--name-field-commision-decided {
+    width: 100% !important;
+    float: left;
+}
+div#edit-langcode-wrapper {
+    display: none;
+}
+
+/*   css for employee form*/
+.field--name-field-f{
+	  width: 33.33% !important;
+    float: left;
+}
+.field--name-field-addresss{
+	  width: 33.33% !important;
+    float: left;
+}
+.field--name-field-contact-number{
+	  width: 31.33% !important;
+    float: left;
+}
+.field--name-field-designation{
+	width: 33.66% !important;
+    float: left;
+}
+.field--name-field-salary{
+	width: 33% !important;
+    float: left;
+}
+.field--name-field-hiring-date{
+   width: 31.33% !important;
+}
+.col.layout-region-node-footer {
+    padding: 0px 0px 0px 45px;
+}
+/* end employee */
+/* start css for voucher */
+.field--name-field-voucher-type{
+	width: 33.33% !important;
+	float: left;
+}
+.field--name-field-date{
+	width: 33.33% !important;
+	float: left;
+}
+.field--name-field-select-head{
+	width: 33.33% !important;
+	float: left;
+}
+.field--name-title{
+	width: 31.33% !important;
+	float: left;
+}
+
+.field--name-field-description{
+	width: 68% !important;
+  float: right;
+	height: 200px !important;
+}
+.field--name-field-select-customer{
+	width: 33.33% !important;
+	float: left;
+}
+.field--name-field-gross-weight{
+	width: 33.33% !important;
+	float: left;
+}
+.field--name-field-tare-weight{
+	width: 31.33% !important;
+	float: left;
+}
+.field--name-field-select-vehicle-type{
+	width: 33.33% !important;
+	float: left;
+}
+.field--name-field-status{
+	width: 30.33% !important;
+	float: left;
+}
+.field--name-field-with-dr{
+	width: 35% !important;
+	float: left;
+}
+.field--name-field-date-tare-weight-{
+	width: 40% !important;
+	float: left;
+}
+.field--name-field-amount{
+	width: 33.33% !important;
+	float: left;
+}
+input {
+    border-radius: 0 !important;
+    padding: 0;
+    height: 38px;
+    border-color: #0000001f !important;
+}
+form .form-group {
+     margin-bottom: 0.8rem !important; 
+}
+.form-group {
+     margin-bottom: 0rem; 
+}
+.field--name-field-decided-amount2{
+/*       width: 31% !important;	*/
+	display: flex;
+}
+fieldset.js-form-item.js-form-type-textfield.form-type-textfield.js-form-item-field-commision-decided-form-inline-entity-form-field-decided-amount2-0-value.form-item-field-commision-decided-form-inline-entity-form-field-decided-amount2-0-value.form-group.col-auto {
+    width: 53%;
+}
+
+form#node-customer-form.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col, .col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm, .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md, .col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl, .col-xl-auto {
+     padding-left: 0px !important; 
+}
+
+
+div[id^="edit-field-commision-decided-form-inline-entity-form-title-wrapper"]{
+    display: none !important;
+}
+
+/*  end voucher */
+@media screen and (min-width: 1024px) { 
+	.height-180 {
+		height: 180px !important;
+	}
+}
+
+@media print{
+	.noprint {display: none;}
+}
+
+

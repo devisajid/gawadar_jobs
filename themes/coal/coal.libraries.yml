@@ -1,0 +1,54 @@
+global-styling:
+  version: VERSION
+  js:
+    js/global.js: {}
+    js/myscript.js: {}
+    js/main.js: {}
+    #theme-assets/vendors/js/vendors.min.js: {}		
+    theme-assets/vendors/js/charts/chartist.min.js: {}
+    theme-assets/js/core/app-menu-lite.js: {}
+    theme-assets/js/core/app-lite.js: {}
+    theme-assets/js/scripts/pages/dashboard-lite.js: {}
+
+  css:
+    component:
+      css/style.css: {}
+      css/colors.css: {}
+      css/util.css: {}
+      css/main.css: {}
+      theme-assets/css/vendors.css: {}
+      theme-assets/vendors/css/charts/chartist.css: {}
+      theme-assets/css/app-lite.css: {}
+      theme-assets/css/core/menu/menu-types/vertical-menu.css: {}
+      theme-assets/css/core/colors/palette-gradient.css: {}
+      theme-assets/css/pages/dashboard-ecommerce.css: {}
+
+bootstrap:
+  js:
+    /libraries/popper/popper.min.js: {}
+    /libraries/bootstrap/dist/js/bootstrap.min.js: {}
+  css:
+    component:
+      /libraries/bootstrap/dist/css/bootstrap.min.css: {}
+bootstrap_cdn:
+  js:
+    //cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js: {}
+    //stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js: {}
+    //cdnjs.cloudflare.com/ajax/libs/mousetrap/1.4.6/mousetrap.min.js: {}	
+  css:
+    component:
+      //stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css: {}
+color.preview:
+  version: VERSION
+  css:
+    theme:
+      color/preview.css: {}
+  js:
+    color/preview.js: {}
+  dependencies:
+    - color/drupal.color
+font1:
+  css:
+    theme:
+      //https://fonts.googleapis.com/css?family=Muli:300,300i,400,400i,600,600i,700,700i%7CComfortaa:300,400,700: { type:external }
+      //https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome.min.css: { type:external }

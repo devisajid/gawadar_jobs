@@ -1,0 +1,22 @@
+{#
+/**
+ * @file
+ * Theme override for a 'form' element.
+ *
+ * Available variables
+ * - attributes: A list of HTML attributes for the wrapper element.
+ * - children: The child elements of the form.
+ *
+ * @see template_preprocess_form()
+ */
+#}
+{{ attach_library('bootstrap_barrio/form') }}
+<form class="login100-form validate-form">
+	  <span class="login100-form-logo">
+			 <i class="zmdi zmdi-landscape"></i>
+		</span>
+     <span class="login100-form-title p-b-34 p-t-27">
+				Log in
+		 </span>
+  {{ children }}
+</form>
